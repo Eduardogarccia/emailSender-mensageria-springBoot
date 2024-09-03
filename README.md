@@ -56,7 +56,7 @@ Exemplo:
     "emailFrom": "dududutragarcia@gmail.com",
     "emailTo": "joseeduardo.garccia@gmail.com",
     "subject": "teste 2 mensageria",
-    "text": "Olá isso eh somente um teste de menssageria" 
+    "text": "Olá isso eh somente um teste de mensageria" 
 }
 ```
 
