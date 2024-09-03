@@ -28,7 +28,7 @@ Abra a IDE STS, importe o projeto e inicie a aplicação com a opção **Run As 
 
 ## 3. Testar
 
-Configure uma chave de acesso para o email que será usado para envio nesse link: https://support.google.com/accounts/a...
+Configure uma chave de acesso para o email que será usado para envio nesse link: https://support.google.com/accounts/answer/185833
 
 Atualize o application.properties:
 ```
