@@ -22,11 +22,11 @@ git clone https://github.com/Eduardogarccia/emailSender-mensageria-springBoot.gi
 
 ## 2. Iniciar a Aplicação
 
+Crie o database email2 no MySQL
+
 Abra a IDE STS, importe o projeto e inicie a aplicação com a opção **Run As Spring Boot App**.
 
 ## 3. Testar
-
-Crie o database email2 no MySQL
 
 Configure uma chave de acesso para o email que será usado para envio nesse link: https://support.google.com/accounts/a...
 
