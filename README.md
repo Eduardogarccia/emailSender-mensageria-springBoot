@@ -31,19 +31,21 @@ Crie o database email2 no MySQL
 Configure uma chave de acesso para o email que será usado para envio nesse link: https://support.google.com/accounts/a...
 
 Atualize o application.properties:
+```
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
 spring.mail.username=EMAIL CONFIGURADO
 spring.mail.password=CHAVE DE ACESSO GERADA
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
-
+```
 Crie uma conta no CloudAMQP, crie uma nova instância e use a URL gerada.
 
 Atualize o application.properties:
+```
 spring.rabbitmq.addresses=URL GERADA
 spring.rabbitmq.queue=ms.email
-
+```
 ### NO RABBITMQ MANAGEMENT:
 
 Vá em publish message e passe o corpo da requisição no payload.
